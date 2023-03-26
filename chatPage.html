@@ -49,15 +49,16 @@
             </div>
             <div class="card-body" style="height: 25.55rem">
               <div class="list-group list-group-flush">
-                <div class="list-group-item py-3"> 
+                <a href="#" class="list-group-item list-group-item-action py-3 active" aria-current="true"> 
                   <h5 class="mb-1"><i class="bi bi-person-circle me-2"></i>Chat anonymously</h5>
-                </div>
-                <div class="list-group-item py-3">
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-3">
                   <h5 class="mb-1"><i class="bi bi-cpu me-2"></i>Chat with AI</h5>
-                </div>
-                <div class="list-group-item py-3">
+                  <span class="badge bg-secondary rounded-pill">3</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-3">
                   <h5 class="mb-1"><i class="bi bi-person me-2"></i>Just you</h5>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -104,7 +105,7 @@
               <div class="message_input_wrapper">
                 <form>
                   <div class="input-group rounded">
-                    <textarea class="form-control" rows="1" aria-label="With textarea"></textarea>
+                    <textarea class="form-control" rows="1" placeholder="Type a message" aria-label="disabled" disabled></textarea>
                   </div>
                   <button class="send_message ms-2"><i class="bi bi-send-fill"></i></button>
                 </form>
